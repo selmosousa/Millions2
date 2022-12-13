@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./estilo.css">
     <link rel="stylesheet" href="./reset.css">
@@ -27,79 +27,62 @@
         <div>
             <h2 class="principal__titulo font-bold">Confira o vídeo</h2>
             <p class="principal__texto">Millions é o maior grupo e mais lucrativo, não temos mais de 20 mil alunos a toa</p>
-            <button type="button" class="btn btn-success principal__botao"><a class="principal__link" href="https://bit.ly/Millions_Google">Saiba mais</a></button>
         </div>
     </main>
 
-    <!-- INFORMATIVO -->
-    <div class="row ">
-        <section id="sobre-nos" class=" container informativo">
-            <div>
-                <h2 class="informativo__titulo p-2 font-bold">Fale no nosso Whats e tenha:</h2>
-                <img class="img-responsive col-sm-6 col-md-4 informativo__img informativo__img" src="img/Imagem__millions.png">
-            </div>
+    <!-- DÚVIDAS FREQUENTES -->
 
-            <div>
-                <div class="panel-group col-sm-6 col-md-4 informativo__caixa" id="paineis-sobre">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">85% de desconto ↓</h3>
-                        </div>
-                        <div id="primeiro-paragrafo" class="collapse">	
-                            <div class="panel-body">
-                                <p>Os próximos 30 alunos teram desconto</p>
-                            </div>
-                        </div>	
-                    </div>
+    <section class="duvida container">
+        <img class="duvida__imagem" src="./img/Imagem__millions.png" alt="">
 
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">Serviço vitalício  ↓</h3>
-                        </div>
-                        <div id="segundo-paragrafo" class="collapse">
-                            <div class="panel-body">	
-                                <p>Só pagará uma única vez e terá analises para sempre</p>
-                            </div>
-                        </div>	
-                    </div>	
-
-                    <div class="panel panel-default">
-                        <div class="panel-heading">	
-                            <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">Mais de 250% de lucro  ↓</h3>
-                        </div>
-                        <div id="terceiro-paragrafo" class="collapse">
-                            <div class="panel-body">	
-                                <p>O robô que estar no mercado a mais de 2 anos, peça a um dos atendentes nosso relatório de ganhos</p>
-                            </div>
-                        </div>	
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">	
-                            <h3 class="panel-title" data-toggle="collapse" data-target="#quarto-paragrafo" data-parent="#paineis-sobre">7 dias de garantia  ↓</h3>
-                        </div>
-                        <div id="quarto-paragrafo" class="collapse">
-                            <div class="panel-body">	
-                                <p>Você terá o reembolso caso fique insatisfeito, já facilitamos a você para solicitar diretamente na área de compra.</p>
-                            </div>
-                        </div>	
-                    </div>		
+        <div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                <h3 class="panel-title duvidas__titulo">Consigo fazer as operações somente pelo celular?</h3>
                 </div>
-                <button type="button" class="btn btn-success principal__botao principal__botao2 animate-bounce"><a class="principal__link" href="https://bit.ly/Millions_Google">Saiba mais</a></button>
-
+                <div class="panel-body">
+                    Sim! De qualquer lugar que você estiver, tendo uma conexão com a internet, você conseguirá lucrar em apenas alguns cliques com o seu celular.
+                </div>
             </div>
+            
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                <h3 class="panel-title duvidas__titulo">Não entendo nada, consigo usar?</h3>
+                </div>
+                <div class="panel-body">
+                    Claro! Você não precisa ser nenhum especialista para lucrar no trading esportivo, o robô faz todo o trabalho para você, ele analisa simultaneamente todos os jogos que estão acontecendo, e assim que identifica as melhores oportunidades de investimento, ele envia o sinal para você de forma 100% automática, você só precisa copiar e colar.
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                <h3 class="panel-title duvidas__titulo">Quantas operações são enviadas por dia?</h3>
+                </div>
+                <div class="panel-body">
+                    O número de operações vai depender muito da quantidade de oportunidades que o robô encontrar no mercado, mas gira em torno de 10 a 20 entradas por dia, geralmente no final de semana tem muito mais oportunidades do que os outros dias.
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                <h3 class="panel-title duvidas__titulo">Tenho suporte para tirar dúvidas?</h3>
+                </div>
+                <div class="panel-body">
+                    Sim, temos uma equipe especializada disponível 24h para te dar todo o suporte que você precisa, nas dúvidas, ensinando as estratégias, gestão de banca, e muito mais…
+                </div>
+            </div>
+        </div>
         </section>
-    </div>
 
     <!-- DEPOIMENTO -->
     <section class="depoimento">
         <div class="container">
             <h2 class="depoimento__texto">Depoimento de quem já é da nossa equipe!</h2>
             <ul class="depoimento__lista">
-                <li class="depoimento__item">→ Suporte para dúvidas</li>
-                <li class="depoimento__item">→ As análises chegam de forma simples para que se preocupe em apenas com o lucro</li>
-                <li class="depoimento__item">→ São mais de 20 mil alunos já lucrando</li>
+                <li class="depoimento__item">→ Suporte 24h para dúvidas.</li>
+                <li class="depoimento__item">→ As análises chegam de forma simples, se preocupe apenas em lucrar.</li>
+                <li class="depoimento__item">→ São mais de 20 mil alunos já lucrando, não será diferente com você.</li>
             </ul>
-            <button type="button" class="container btn btn-success principal__botao principal__botao3"><a class="principal__link" href="https://bit.ly/Millions_Google">Saiba mais</a></button>
         </div>
         <div id="carousel-example-generic" class="carousel slide container depoimento__carrossel" data-ride="carousel">
             <!-- Indicators -->
@@ -144,9 +127,38 @@
         </div>
      </section>
 
+     <!-- VANTAGENS -->
+
+     <section class="vantagens container">
+        <h1 class="vantagens__titulo">Conheça as vantagens</h1>
+        <div class="vantagens__bloco">
+            <h3 class="vantagens__titulo2">ALTA ASSERTIVIDADE</h3>
+            <p class="vantagens__texto">Atualmente, o MillionsBOT 5.0 é a ferramenta mais rápida e objetiva de se ganhar dinheiro com investimentos esportivos, através da inteligência artificial contendo as melhores estratégias do Mercado no momento. 🔥</p>
+        </div>
+        <div class="vantagens__bloco">
+            <h3 class="vantagens__titulo2">ECONOMIZE TEMPO</h3>
+            <p class="vantagens__texto">Agora você não irá precisar mais ficar analisando jogo por jogo. O MillionsBOT 5.0 fará isso por você, e o melhor… Lucre em apenas alguns cliques apenas copiando e colando os sinais. 🚀</p>
+        </div>
+        <div class="vantagens__bloco">
+            <h3 class="vantagens__titulo2">RENDA EXTRA</h3>
+            <p class="vantagens__texto">Para quem busca uma renda extra ou principal e quer ter sua liberdade financeira mais rápido em um mercado SECRETO que pouca gente conhece! 🤑</p>
+        </div>
+    </section>
+
+    <!-- GARANTIA -->
+    <section class="garantia container">
+        <img class="garantia__imagem" src="./img/garantia.png" alt="7 dias de garantia">
+        <h2 class="garantia__titulo">Ou você LUCRA com o robô, ou devolvemos seu dinheiro!</h2>
+        <p class="garantia__texto">Temos <b>1000%</b> de convicção que o robô pode mudar sua realidade financeira, confiamos tanto em nosso produto, que você terá 7 dias de garantia incondicional.</p>
+        <p class="garantia__texto">Se qualquer motivo sentir que o MillionsBOT 5.0 não é para você, terá 7 dias após a compra para pedir reembolso, você receberá cada centavo de volta sem questionamentos.</p>
+    </section>
+
+        <a href="https://api.whatsapp.com/send?phone=5585981038088&text=Ola!!%20Gostaria%20de%20saber%20mais%20sobre%20o%20*Millions%20Bot*"><img class="logo__whatsapp animate-bounce" src="./img/logo_whatsapp.png" alt="logo do logo_whatsapp"></a> 
+
+
         <footer class="rodape">
-            <h4 class="rodape__contato"><a href="https://bit.ly/Millions_Google" class="rodape__contato"> contato para suporte</a></h4>
-            <p><a href="https://bit.ly/Millions_Google" class="rodape__contato">(85)9.8139-3784</a></p>
+            <h4 class="rodape__contato"><a href="https://api.whatsapp.com/send?phone=5585981038088&text=Ola!!%20Gostaria%20de%20saber%20mais%20sobre%20o%20*Millions%20Bot*" class="rodape__contato"> contato para suporte</a></h4>
+            <p><a href="https://api.whatsapp.com/send?phone=5585981038088&text=Ola!!%20Gostaria%20de%20saber%20mais%20sobre%20o%20*Millions%20Bot*" class="rodape__contato">(85)9.8103-8088</a></p>
             <img class="imagem__cabecalho" src="./img/logo tiger sem fundo.png" alt="Logo do tigre">
         </footer>
 
